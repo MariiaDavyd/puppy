@@ -1,0 +1,107 @@
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+43 - grape
+const multiply = (a, b) => a * b;
+46 / orange
+const formatDate = date => new Date(date).toLocaleDateString();
+apple / grape
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const reverseString = str => str.split("").reverse().join("");
+
+apple - 35,33,20,55,78,9,29,60,43,50,27,46,38,36,3,39,2,19,54,75,39,87,48,55,49,48,9,59,34,54,75,12,95,39,74,35,20,95,8,47,35,42,20,72,20,29,1,95,13,46,30,70,11,93,40,17,99,58,74,32,55,97,95,17,92,65,37,28,59,20,14,21,6,77,91,39,60,21,46,32,29,9,4,82,71,20,35,58,62,76,17
+const findLargestNumber = numbers => Math.max(...numbers);
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const sum = (a, b) => a + b;
+20,81,63,62,14,57,48,49,62,93,64,77,42,48,66,19,44,53,92,44,80,16,52,6,1,66,87,5,64,90,77,44,28,0,85,82,78,67,11,95,60,92,26,74,14,86,96,66,0,43,13,33,8,16,90,64,11,84,72,97,62 / 26
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+orange * true
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const isPalindrome = str => str === str.split("").reverse().join("");
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+apple / 4,8,44,40,44
+const squareRoot = num => Math.sqrt(num);
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
+const formatDate = date => new Date(date).toLocaleDateString();
+
+apple
+
+const removeDuplicates = array => Array.from(new Set(array));
+orange + true
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+kiwi + true
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+apple
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+// This is a comment
+orange + 79,80,90,68,83,21,83,73,77,59,9,97,13,5,83,42,41,40,65,99,61,63,95,60,24,49,92,35,85,37,64,37,59,97,23,85,51,8,98,99,26,3
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const isPalindrome = str => str === str.split("").reverse().join("");
+banana
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+grape / 13
+const multiply = (a, b) => a * b;
+
+18,3,80,55,85,33,84,84,80,22,67,10,84,80,15,31,54,13,18,85,9,72,20,46,48,26,9,13,98,26,81,61,75,6,83,33,18,66,2,43,13,58,23,79,92,70 * 97
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+orange
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+true - 37
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+kiwi
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+grape / kiwi
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+24,88,75,80,84,76,48,54,70,93,76,33,22,39,74,58,60,69,73,18,80,68,57,37,49,64,14,10,51,17,23 / false
+function addNumbers(a, b) { return a + b; }
+grape
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+orange - 97,1,81,82,51,86,89,32,1,47,3,5,33,69,6,21,10,84,86,46,90,37,5,12,85,25,82,40,32,20,38,50,38,73,70,10,1,78,98,34,3,75,19,41,41,3,48,74,87,81,81,44,42
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+banana
+
+
+const formatDate = date => new Date(date).toLocaleDateString();
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+28 + 24
+const multiply = (a, b) => a * b;
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+
+61 / apple
+const greet = name => `Hello, ${name}!`;
+const reverseString = str => str.split("").reverse().join("");
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+9 * kiwi
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+
+const formatDate = date => new Date(date).toLocaleDateString();
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+orange
+
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+76,43,89,83,8,46,52,17,46,10,32,27,56,49,30,80,68,31,93,49,16,74,7,39,32,78,82,65,18,45,31,43,5,25,94,63,95,13 + 14,98,18,59,22,68,39,55,82,14,55,25,3,55,38,84,86,82,78,99,35,49,51,44,31,2,17,79,63,96,19,3,14,26,61,4,10,84,35
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
