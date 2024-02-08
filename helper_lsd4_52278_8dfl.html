@@ -1,0 +1,24 @@
+const getRandomSubset = (array, size) => array.slice(0, size);
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const randomNumber = getRandomNumber();
+banana
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const getRandomElement = array => array[getRandomIndex(array)];
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+banana + 46
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+67 + 62
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+
+50,61,4,0,58,86,44,54,48,34,37,45,59,4,29,96,64,16,14,70,23,30,39,9,41,81,13,79,39,53,12,1,25,11,83,86,98,26 / 79
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
