@@ -1,0 +1,42 @@
+57 - apple
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const findSmallestNumber = numbers => Math.min(...numbers);
+true + 4
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+kiwi
+
+
+const squareRoot = num => Math.sqrt(num);
+const findLargestNumber = numbers => Math.max(...numbers);
+const capitalizeString = str => str.toUpperCase();
+80,20,57,0,18,82,31,36,57,2,32,16,14,37,34,22,17,73,26,89,97,96,4,41,35,16,18,89,98,83,81,62,68,71,73,12,13,27,11,35,65,8,23,98,33,3,32,60,8,11,9,66,74,5,45,49,36,45 * true
+const multiply = (a, b) => a * b;
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+// This is a comment
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+80 * 79,54,88,49,62,95,43,39,98,36,30,45,93,22,38,60,70,87,75,27,67,63,48,27,66,49,8,61,98,36,90,36,65,72,66,51,86,2,17,52,82
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+74,86,39,65,66,46,21,11,6,46,45,21,87,71,55,68,84,50,40,3,67,72,13,11,66,83,82,95,42,61,8,58,59,45,30,41,82,55,46,22,65,64,86,56,52,84,97,97,77,99,85,76,2,15,14,26,84,97,76,87,35,68,56,44,89,21,31 / apple
+const multiply = (a, b) => a * b;
+
+85,81,14,14,2,86,13,33,95,15,3,52,11,93,44 - 41
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+apple
+
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+apple
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const sum = (a, b) => a + b;
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+const variableName = getRandomNumber();
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
