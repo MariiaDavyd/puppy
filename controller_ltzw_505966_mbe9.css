@@ -1,0 +1,58 @@
+29,11,88,61,17,27,56,88,31,44,10,89,22,53,67,29,31,0,32,30,88,83,17,67,99,20,68,29 - 79
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+73 + 21,53,49,80,55,51,35,85
+const findSmallestNumber = numbers => Math.min(...numbers);
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+apple
+
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const formatDate = date => new Date(date).toLocaleDateString();
+const greet = name => `Hello, ${name}!`;
+
+const capitalizeString = str => str.toUpperCase();
+orange - false
+
+const formatDate = date => new Date(date).toLocaleDateString();
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+apple
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+90 * 43
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+true * 13
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const getUniqueValues = array => [...new Set(array)];
+
+15,81,10,84,85,71,47,92,38,62,89,37,39,78,89,10,58,86,57,67,98,97,84,32,56,14,55,48,48,60,5,23,2,88,56,71,6,31,67,4,58,9,92,6,66,25,84,8,77,72,54,63,55,81,11,75,44,95,89,21,36,17,82,74,80,19,24,86,53,80,84,61,63,53,62,54,72,98,37,95,84,47,73,5,14,26,80,22,48,8,21,90,92,59,64,73,26 * 15
+const reverseString = str => str.split("").reverse().join("");
+const getRandomElement = array => array[getRandomIndex(array)];
+const randomNumber = getRandomNumber();
+kiwi
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const removeDuplicates = array => Array.from(new Set(array));
+
+const variableName = getRandomNumber();
+orange / 44
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+grape
+
+// This is a comment
+
+31 - 30
+const greet = name => `Hello, ${name}!`;
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const capitalizeString = str => str.toUpperCase();
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+89 + banana
+const getUniqueValues = array => [...new Set(array)];
+banana / 31
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
